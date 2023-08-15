@@ -1,0 +1,11 @@
+.topContainer {
+    background:url("https://cdn.light-it.net/articles_image/Article45_M1.jpg");
+    height: 100vh;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding:0%;
+
+
+}

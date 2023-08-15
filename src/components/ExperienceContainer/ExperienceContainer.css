@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lora:ital,wght@0,400;0,500;1,700&family=Montserrat:ital,wght@0,300;0,600;1,600&display=swap");
+.experienceContainer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  margin: 200px 0;
+  align-items: center;
+  perspective: 1000px;
+}
+
+.experienceContainer > h1 {
+  padding-bottom: 38px;
+  background-color: #fb5e4f;
+  color: white;
+  text-align:center;
+  justify-content: center;
+  width: 15vw;
+  border-radius: 30px;
+  
+}
+
+.experienceContainer > h1:hover {
+  background-color: transparent;
+  color: white;
+  border-radius: 20px;
+  border: 3px solid white !important;
+  font-size: 26px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: hand;
+}
+.experienceContainer__info {
+  background-image: url("https://th.bing.com/th/id/R.a168f57c0e9536000459aeaba7c5c3e3?rik=S7jJ2YvIC02CZg&riu=http%3a%2f%2fwifi2.yolasite.com%2fresources%2fVista_Style_Desktop_Background_by_erynsim.jpg&ehk=vru%2b26azBLFSFqL%2f4FELPbj7GFLyN%2fJoR3AuiBtFMUw%3d&risl=&pid=ImgRaw&r=0");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  z-index: 1000px;
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: hand;
+  border-radius: 30px;
+  margin-top: 25px;
+}
+@media screen and (max-width: 480px) {
+  .experienceContainer {
+    margin: 0%;
+    flex-wrap: wrap;
+  }
+  .experienceContainer > h1 {
+    text-align: center;
+    width: 30vw;
+
+    font-size: 23px;
+    margin-top: 10px;
+  }
+  .experienceContainer__info {
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+  }
+  .experienceContainer > h1:hover {
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid white !important;
+    font-size: 26px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    cursor: hand;
+    width: 50vw;
+    
+    }
+}

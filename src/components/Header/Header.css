@@ -1,0 +1,169 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+}
+h1{
+    text-align: center;
+font-family: "Alata", sans-serif;
+padding:20px 0;
+letter-spacing: 1px;
+padding-top: 40px;
+font-size: 30px;
+
+}
+.image{
+    width:50px;
+    border-radius: 50%;
+    margin: 30px;
+    margin-left: 0%;
+    
+}
+.header_left {
+    flex:0.4;
+    flex-direction: row;
+    display: flex;
+}
+
+h1 > span{
+    color: #f64c08;
+   
+   padding-top:22px;
+   font-size: 26px;
+
+}
+  
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+  background:black;
+  position:sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4rem;
+}
+.nav__toggler {
+  display: none;
+}
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 1rem;
+  background: rgb(204, 204, 204);
+  transition: 0.3s ease-in;
+}
+.nav__link:hover{
+  background-color: #f64c08;
+    color: white;
+    padding: 5px 20px !important;
+    border-radius: 25px;
+
+}
+.nav__link{
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.join:hover{
+    font-size: 21px;
+    background-color: teal;
+    color: gold;
+    
+    height: 25vh !important;
+    border-radius: 10px;
+  }
+  
+.join{
+  font-size: 28px;
+  font-weight: bold;
+  color: #f64c08;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+ 
+}
+.fa-solid{
+  color:white;
+  align-items: center;
+  margin-right: 8px;
+  
+}
+@media screen and (max-width: 480px) {
+  .nav__menu {
+    display: none;
+  }
+  
+  
+  .nav__menu.active {
+    transform: translateY(0%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav__toggler.active .line1 {
+    transform: rotate(-45deg) translate(-3px, 3px);
+  }
+  .nav__toggler.active .line2 {
+    opacity: 0;
+  }
+  .nav__toggler.active .line3 {
+    transform: rotate(45deg) translate(-3px, -3px);
+  }
+  .nav__toggler {
+    display: block;
+    cursor: pointer;
+  }
+  .nav__menu {
+    position: fixed;
+    top: 8vh;
+    right: 0;
+    height: 80vh;
+    width: 50vw;
+    background: black;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+    padding-top: 20px;
+    
+  }
+  .join{
+    font-size: 18px;
+  }
+  .join:hover{
+    font-size: 16px;
+    background-color: teal;
+    color: gold;
+
+    height: 30vh !important;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+}
+/* Active Class */
+

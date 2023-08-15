@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,700&family=Montserrat:ital,wght@0,300;0,600;1,600&display=swap");
+
+.project > img {
+  width: 350px;
+  height: 179px;
+  border-radius: 30px;
+  border: 5px solid mediumaquamarine;
+}
+.project {
+  margin: 15px;
+  width: 350px;
+  height: 179px;
+}
+.project:hover {
+  color: black;
+  background-color: #64c5eb;
+  border: 5px solid whitesmoke;
+  border-radius: 25px;
+  display: flex;
+  transform: scale(1.15);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 15px;
+}
+.project_Content {
+  padding: 10px;
+}
+.project_Content > h4 {
+  padding-bottom: 10px;
+}
+.project_Content > p {
+  padding: 10px;
+}
+@media screen and (max-width: 480px) {
+  .project:hover {
+    color: black;
+    background-color: #64c5eb;
+    border: 5px solid whitesmoke;
+    border-radius: 25px;
+    display: flex;
+    transform: scale(1.15);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .project{
+    margin:20px;
+    width:300px;
+    }
+}

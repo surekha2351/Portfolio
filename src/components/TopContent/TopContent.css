@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,700&family=Montserrat:ital,wght@0,300;0,600;1,600&display=swap');
+.topContent{
+    color: white;
+    position: relative;
+    padding-right: 50% !important;
+}
+.topContent_container{
+    position: absolute;
+    top:300px;
+    right:10px;
+}
+.topContent_container > p {
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 20px;
+}
+.topContent_container > a > button{
+    margin-top: 30px;
+    text-align: left;
+    margin-left:5px;
+    border: none;
+    border-radius: 2px;
+    outline:none;
+
+}
+.topContent_container > h1{
+    font-size:35px;
+    font-family: "Montserrat", sans-serif;
+}
+.topContent_downloadButton{
+background-color: limegreen;
+color:whitesmoke;
+font-size:14px;
+padding:10px 30px;
+font-family: "Mountserrat", sans-serif;
+font-weight:300;
+cursor: pointer;
+margin-right: 20px;
+border-radius: 15px !important;
+
+
+}
+
+.topContent_downloadButton:hover{
+    color: black;
+    background-color:whitesmoke;
+    font-weight: 600;
+    border-radius: 100px;
+    border-radius: 30px !important;
+
+}
+.topContent_workButton{
+    background-color: transparent;
+    color:white;
+    font-size:14px;
+    padding:9px 30px;
+    font-family: "Mountserrat", sans-serif;
+    font-weight:300;
+    cursor: pointer;
+    margin-right: 20px;
+    border: 1px solid white !important;
+    border-radius: 15px !important;
+
+
+}
+.topContent_workButton:hover{
+    color:whitesmoke;
+    background-color: #64C5EB;
+    font-weight: 600;
+    border-radius: 40px !important;
+
+}
+@media screen and (max-width:480px){
+    .topContent{
+        text-align: center;
+        
+
+  }
+  .topContent_container >  h1{
+    font-size: 26px;
+    text-shadow:1.5px 1.5px 1.5px #64C5EB ;
+    padding-top: 50px;
+  
+  }.topContent_downloadButton:hover{
+    color: black;
+    background-color:whitesmoke;
+    font-weight: 600;
+    border-radius: 100px;
+    border-radius: 30px !important;
+
+}
+.topContent_workButton:hover{
+    color:whitesmoke;
+    background-color: #64C5EB;
+    font-weight: 600;
+    border-radius: 40px !important;
+
+}
+
+}
